@@ -1,0 +1,390 @@
+body {
+    background-color: #E4CEDD;
+    font-family: Garamond, serif;
+    width:450px;
+}
+
+h1 {
+    color: #262e7a;
+    text-align: center;
+}
+
+.container {
+    
+    
+    align-items: flex-start;
+    gap: 20px; 
+    position: relative;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap:20px; 
+    
+}
+
+.hexagon {
+    position: relative;
+    padding-top:2px;
+    width: 30px;
+    height: 17.32px;
+    background-color: transparent;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.7);
+    transform: rotate(90deg);
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 8.66px solid transparent;
+}
+
+.hexagon:after {
+    top: 100%;
+    border-top: 8.66px solid transparent;
+}
+
+/* Colors and positions for each hexagon */
+#text-formatting {
+    background-color: orange;
+    position:relative ;
+    top:30px;
+    left:25px;
+}
+#text-formatting:before {
+    border-bottom: 8.66px solid orange;
+}
+#text-formatting:after {
+    border-top: 8.66px solid orange;
+}
+
+
+.first{
+
+    position:relative;
+    top:30px;
+    left:20px;
+    width:120px;
+    height:24px;
+    border:2px solid orange;
+    border-radius:30px;
+    padding-top:8px;
+    padding-left:5px;
+    background-color:white;
+    margin-left:-10px;
+
+    
+}
+
+
+#head {
+    background-color: red;
+    position:relative;
+    top:20px;
+    left:10px  
+}
+#head:before {
+    border-bottom: 8.66px solid red;
+}
+#head:after {
+    border-top: 8.66px solid red;
+}
+
+
+.second{
+
+    position:relative;
+    top:20px;
+    left:1px;
+    width:90px;
+    height:20px;
+    border:2px solid red;
+    border-radius:30px;
+    padding-top:9px;
+    padding-left:5px;
+    background-color:white;
+    
+}
+
+#link {
+    background-color: #fcd703;
+    position:relative;
+    top:15px;
+    left:10px;
+}
+#link:before {
+    border-bottom: 8.66px solid #fcd703;
+}
+#link:after {
+    border-top: 8.66px solid #fcd703;
+}
+.third{
+    position:relative;
+    top:15px;
+    left:px;
+    width:90px;
+    height:20px;
+    border:2px solid #fcd703;
+    border-radius:30px;
+    padding-top:9px;
+    padding-left:15px;
+    background-color:white;
+
+}
+
+#list {
+    background-color: #58d16e;
+    position:relative;
+    top:15px;
+    left:30px;
+}
+#list:before {
+    border-bottom: 8.66px solid #58d16e;
+}
+#list:after {
+    border-top: 8.66px solid #58d16e;
+}
+
+.fourth{
+    position:relative;
+    top:15px;
+    left:15px;
+    width:100px;
+    height:20px;
+    border:2px solid #58d16e;
+    border-radius:30px;
+    padding-top:9px;
+    padding-left:15px;
+    background-color:white;
+
+}
+
+#table {
+    background-color: #f02e7b;
+    position:absolute;
+    top:50px;
+    right:160px;
+}
+#table:before {
+    border-bottom: 8.66px solid #f02e7b;
+}
+#table:after {
+    border-top: 8.66px solid #f02e7b;
+}
+
+.fifth{
+    position:absolute;
+    top:30px;
+    right:0px;
+    left:15px;
+    width:100px;
+    height:20px;
+    border:2px solid #f02e7b;
+    border-radius:30px;
+    padding-top:9px;
+    padding-left:15px;
+    background-color:white;
+    margin-left:280px;
+
+}
+
+#form {
+    background-color: #6b03fc;
+    position:absolute;
+    top:90px;
+    right:140px;
+}
+#form:before {
+    border-bottom: 8.66px solid #6b03fc;
+}
+#form:after {
+    border-top: 8.66px solid #6b03fc;
+}
+
+.sixth{
+    position:absolute;
+    top:75px;
+    right:px;
+    width:90px;
+    height:20px;
+    border:2px solid #6b03fc;
+    border-radius:30px;
+    padding-top:9px;
+    padding-left:15px;
+    background-color:white;
+    margin-left:320px;
+}
+
+#scripting {
+    background-color: #0362fc;
+    position:absolute;
+    top:142px;
+    right:140px;
+}
+#scripting:before {
+    border-bottom: 8.66px solid #0362fc;
+}
+#scripting:after {
+    border-top: 8.66px solid #0362fc;
+}
+
+.seventh{
+    position:absolute;
+    top:125px;
+    right:px;
+    width:90px;
+    height:20px;
+    border:2px solid #0362fc;
+    border-radius:30px;
+    padding-top:9px;
+    padding-left:15px;
+    background-color:white;
+    margin-left:320px;
+}
+
+#image {
+    background-color: #4ab7ff;
+    position:absolute;
+    top:195px;
+    right:157px;
+}
+#image:before {
+    border-bottom: 8.66px solid #4ab7ff;
+}
+#image:after {
+    border-top: 8.66px solid #4ab7ff;
+}
+
+.eighth{
+    position:absolute;
+    top:180px;
+    right:px;
+    width:100px;
+    height:20px;
+    border:2px solid #4ab7ff;
+    border-radius:30px;
+    padding-top:9px;
+    padding-left:15px;
+    background-color:white;
+    margin-left:300px;
+}
+
+
+p {
+    color: black;
+    font-size: 12px;
+}
+
+.number {
+    font-size: 10px;
+    text-align: center;
+    padding-left:16px;
+    color: white;
+    transform: rotate(-90deg);
+}
+
+img{
+    position:absolute;
+    top:100px;
+    left:185px;
+   
+}
+
+
+
+
+p{
+    transition: transform 0.2s ease-in-out;
+}
+
+p:active {
+            transform: scale(1.2); 
+}
+
+
+
+
+/* --- Modal Design --- */
+
+/* Modal Overlay (Puro screen dhaka thakbe) */
+.overlay {
+    display: none; /* Prothome hidden thakbe */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Kalo halka shade */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+/* Modal-er Box */
+.modal-box {
+    background: white;
+    padding: 30px;
+    width: 90%;
+    max-width: 300px;
+    margin-top:-140px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    
+    /* Unfolding Animation Start */
+    transform: scaleY(0); 
+    transform-origin: top; 
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Modal Active hole jemon dekhabe */
+.overlay.active {
+    display: flex;
+}
+
+.overlay.active .modal-box {
+    transform: scaleY(1); /* Full unfold hobe */
+}
+
+/* Close Button Design */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+}
+
+#modalHeading {
+    color: #262e7a;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E4CEDD;
+    padding-bottom: 10px;
+}
+
+#modalText {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+}
+
+/*Button-er charpashe default vabe jei border gulo toiri hoye jabe ta remove korar jonno */
+button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
