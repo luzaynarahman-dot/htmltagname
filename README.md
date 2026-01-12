@@ -3,8 +3,11 @@
 ★ Key Features:
 
 ​Custom UI: Unique hexagon-based curvy layout.
+
 ​Interactive: Dynamic modals showing tag details on click.
+
 ​Modern Look: Glassmorphism blur effect and clean animations.
+
 ​Responsive: Fully optimized for mobile and desktop screens.
 
 ★ Source code link:
