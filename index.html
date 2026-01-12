@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tags in HTML</h1>
+
+    <main class="container">
+    
+      
+         <section class="item" id="one">
+            <div class="hexagon" id="text-formatting">
+                <p class="number">01</p>
+            </div>
+            <button onclick="showmodal('Text formatting tags','Text formatting tags are HTML elements used to style and organize text—like making it bold, italic, or underlined—to change how it looks on a webpage.')" >
+            
+            <p class="label first">Text-formatting tags</p>
+            
+            </button>
+         </section>  
+    
+    
+    
+        <section class="item" id="two">
+            <div class="hexagon" id="head">
+                <p class="number">02</p>
+            </div>
+            <button onclick="showmodal('head tags','​The tag is a container for metadata (data about the page) that is used by browsers and search engines but is not visible on the website itself.')" >
+                
+            <p class="label second">Head tags</p>
+            
+            </button>
+        </section>
+        
+
+        
+        
+
+        <section class="item" id="three">
+            <div class="hexagon" id="link">
+                <p class="number">03</p>
+            </div>
+            
+            <button onclick="showmodal('link tag','The anchor tag is used to create hyperlinks that connect one webpage to another or to a specific location on the same page.')" >
+            <p class="label third">Link tags</p>
+            
+            </button>
+        </section>
+        
+
+        <section class="item" id="four">
+            <div class="hexagon" id="list">
+                <p class="number">04</p>
+            </div>
+            
+            <button onclick="showmodal('list tag','​List tags are used to group related items together, either in a specific order (numbered) or a bulleted format.')" >
+            <p class="label fourth">List tags</p>
+            </button>
+        
+        </section>
+        
+
+        <section class="item" id="five">
+            <div class="hexagon" id="table">
+                <p class="number">05</p>
+            </div>
+            
+            <button onclick="showmodal('Table tag','The table tag is used to arrange data into rows and columns, similar to a spreadsheet, making information easy to read.')" >
+            <p class="label fifth">Table tags</p>
+            </button>
+        </section>
+        
+
+        <section class="item" id="six">
+            <div class="hexagon" id="form">
+                <p class="number">06</p>
+            </div>
+            
+            <button onclick="showmodal('Form tags','The form tag is used to create an interactive section where users can enter data—like names, emails, or passwords—to be sent to a server.')" >
+            <p class="label sixth">Form tags</p>
+            </button>
+            
+        </section>
+        
+
+        <section class="item" id="seven">
+            <div class="hexagon" id="scripting">
+                <p class="number">07</p>
+            </div>
+            
+            <button onclick="showmodal('Scripting tags','The script tag is used to embed or reference executable code—usually JavaScript—to make a webpage interactive and dynamic.')" >
+            <p class="label seventh">Scripting tags</p>
+            </button>
+        </section>
+        
+
+        <section class="item" id="eight">
+            <div class="hexagon" id="image">
+                <p class="number">08</p>
+            </div>
+            
+            <button onclick="showmodal('Image tag','The img tag is used to embed images in a webpage; it is an empty tag, meaning it does not need a closing tag.')" >
+            <p class="label eighth">Image tags</p>
+            </button>
+        </section>
+        
+
+        <div class="logo-wrapper">
+            <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo.svg" 
+                 alt="HTML5 Logo" 
+                 width="60" 
+                 height="90">
+        </div>
+    </main>
+    
+    
+
+<div id="modalOverlay" class="overlay">
+  <div class="modal-box">
+    <span class="close-btn" onclick="hideModal()">&times;</span>
+    <h2 id="modalHeading">Heading Ashbe</h2>
+    <p id="modalText">Tomar text 1-8 ekhane ashbe.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+
+    
+</body>
+</html>
