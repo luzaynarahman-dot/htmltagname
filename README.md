@@ -17,5 +17,3 @@ https://github.com/luzaynarahman-dot/htmltagname
 https://luzaynarahman-dot.github.io/htmltagname/
 
 
-here's the image of the output 
-Screenshot_20260112-230500_Chrome.jpg
