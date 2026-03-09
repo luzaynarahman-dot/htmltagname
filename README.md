@@ -1,42 +1,31 @@
-# HTML Tag Name – UI Replication Challenge
+# SoulStep
 
-★ **Project Type:** Frontend Coding Challenge
-★ **Objective:** Replicating a complex UI design from a static image into a fully functional, responsive web application.
+★ **Project Status:** Under Development (HSC '26 Phase)
 
----
-
-### 📖 The Backstory
-This project started as a personal challenge given to me by my sister. The task was to take a complex UI design from an image and recreate it using pure code. Beyond just matching the design, I implemented responsiveness and interactive features to bring the static concept to life.
+★ **Core Concept:** A minimalist, private spiritual journal designed to document daily prayers and personal growth.
 
 ---
 
-### ★ Key Features
-★ **Custom Hexagonal UI:** A unique, curvy layout inspired by modern design trends.
-★ **Interactive Modals:** Dynamic pop-ups that display detailed information about HTML tags upon user interaction.
-★ **Glassmorphism Aesthetic:** Implementation of modern blur effects and clean, subtle animations for a premium feel.
-★ **Fully Responsive:** Optimized for a seamless experience across mobile, tablet, and desktop devices.
+### ★ Key Features (Roadmap)
+
+★ **Spiritual Journaling:**
+Allows users to record their feelings and thoughts after each prayer to track spiritual well-being over time.
+
+★ **Moment Capture:**
+A private feature to upload a photo of the surroundings after Salah, creating a visual memory of the journey.
+
+★ **Recovery Module (Qaza Tracker):**
+A systematic approach to tracking and completing missed prayers from previous years.
+
+★ **Wisdom Vault:**
+A curated collection of essential Duas and short Islamic reminders for daily motivation.
 
 ---
 
-### ★ Technical Implementation
-★ **Semantic HTML5:** Structuring the tag data efficiently.
-★ **Advanced CSS3:** Using Flexbox/Grid and Backdrop-filter for the Glassmorphism effect.
-★ **JavaScript:** Handling modal logic and interactive state management.
+### ★ Technical Specifications
 
----
+★ **Current Stack:**
+HTML5, CSS3 (Focusing on a minimalist Silver and Slate aesthetic).
 
-### ★ Learning Outcomes
-★ **Visual Analysis:** Developing the ability to break down complex image-based designs into modular code.
-★ **Layout Precision:** Achieving pixel-perfect design while maintaining responsiveness.
-★ **UI/UX Polish:** Learning how animations and glass effects enhance user engagement.
-
----
-
-### ★ Access & Links
-★ **Live Preview:** [Explore Interactive UI](https://luzaynarahman-dot.github.io/htmltagname/)
-★ **Source Code:** [GitHub Repository](https://github.com/luzaynarahman-dot/htmltagname)
-
----
-
-### ★ Project Reflection
-*"Turning a static image into an interactive reality was a true test of my frontend capabilities. It taught me that with the right logic, any design is possible."*
+★ **Planned Future Stack:**
+JavaScript and Firebase (Cloud Storage for images and user data).
